@@ -13,4 +13,6 @@ ruta.get(
     
 )
 
+ruta.post('/r_user', componente.insertData)
+
 module.exports = ruta
